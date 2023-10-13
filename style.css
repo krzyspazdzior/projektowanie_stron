@@ -1,0 +1,72 @@
+body * {
+  box-sizing: border-box;
+  font-size: 30px;
+  font-weight: bold;
+  color: #5c5c5c;
+}
+
+.calc-body {
+  background-color: #445a64;
+  width: 500px;
+  height: 750px;
+  border-radius: 22px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 40px;
+}
+.display {
+  display: flex;
+  background-color: #c3dfa3;
+  height: 150px;
+  border-radius: 18px;
+}
+main {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  justify-content: center;
+  align-items: center;
+  padding-top: 50px;
+}
+.main_but {
+  width: 90px;
+  height: 90px;
+  background-color: #ebedef;
+  border-radius: 15px;
+  border: grey 1px solid;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+}
+#big-but {
+  width: 195px;
+  height: 90px;
+  background-color: #ebedef;
+  border-radius: 15px;
+  border: grey 1px solid;
+}
+#plus {
+  background-color: rgb(255, 156, 63);
+  color: white;
+}
+.main_but:hover {
+  background-color: #ffffff;
+  box-shadow: 0px 0px 24px 3px rgba(66, 68, 90, 1);
+}
+.functional {
+  display: flex;
+  gap: 15px;
+}
+.fun_but {
+  width: 90px;
+  height: 50px;
+  background-color: #ebedef;
+  border-radius: 15px;
+  border: grey 1px solid;
+}
+#AC {
+  background-color: rgb(144, 144, 144);
+  color: white;
+}

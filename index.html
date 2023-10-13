@@ -1,87 +1,39 @@
 <!DOCTYPE html>
 <html lang="pl">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dzień Dziecka</title>
-    <link rel="stylesheet" href="main.css">
-</head>
-<body>
-    <div class="container">
-    <header>
-        <h1>Dzień Dziecka</h1>
-    </header>
-    <main>
-        <form action="">
-            <label for="name">Podaj swoje imie</label><br>
-            <input type="text" placeholder="Janek" required><br>
-            <label for="age">Podaj swój wiek</label><br>
-            <input type="number" placeholder="12" required><br>
-            <aside>
-                <label for="present">Jaki prezent na dzień dziecka najbardziej by cię uszczęśliwił?</label><br>
-                <section>
-                <label for="">pieniądze</label>
-                <input type="radio" name="present" id="pr1">
-            </section>
-            <section>
-                <label for="">ubrania</label>
-                <input type="radio" name="present" id="pr2">
-            </section>
-            <section>
-                <label for="">inne</label>
-                <input type="radio" name="present" id="pr3">
-            </section>
-            </aside>    
-            <label for="opinia">Co według ciebie jest ważne dla młodzieży i dzieci w obecnych czasach?</label><br>
-            <textarea name="" id="" cols="60" rows="10" required placeholder="Moim zdaniem..."></textarea>
-            <button type="submit">Wyślij</button>
-            <button type="reset">Restart</button>
-        </form>
-    </main>
-        <section>
-            <article>
-                <h2>Prezent na dzień dziecka</h2>
-                <img src="hajs.png" alt="pieniądze">
-                <p>
-                    W mojej opinii, na dzień dziecka dobrym prezentem są pieniądze. Dziecko z pewnością będzie uszczęśliwione, z uwagi na to że będzie mogło za nie kupić to na co ma ochote. Wydaje mi sie to znacznie lepszym rozwiązaniem niż darowanie dziecku prezentu, który niekoniecznie musi sie mu podobać.
-                </p>
-            </article>
-            <article>
-                <h2>Pomysły na prezent</h2>
-                <img src="Basketball.png" alt="piłka do koszykówki">
-                <p>
-                    Jeżeli chcesz sprawić radość dziecku, i nie chcesz aby prezentem była gotówka, możesz pomyśleć nad prezentem związanym z jego zainteresowaniami. Przykładowo jeśli dziecko interesuje się koszykówką możesz pomyśleć nad kupieniem mu:
-                    <ul>
-                        <li>Nowej piłki koszykarskiej</li>
-                        <li>Kosza do powieszenia na ścianę w pokoju</li>
-                        <li>Nowych butów koszykarskich</li>
-                    </ul>
-                </p>
-            </article>
-            <article>
-                <h2>Dobry prezent na moim przykładzie</h2>
-                <img src="klawa.png" alt="">
-                <p>
-                    Aktualnie, najlepszym prezentem dla mnie byłyby pieniądze, ponieważ zbieram na nowszy telefon. Jeśli jednak ktoś chciałby zorganizować mi podarunek, ucieszyłbym się z:
-                    <ul>
-                        <li>wygodnej bluzy</li>
-                        <li>nowej klawiatury</li>
-                        <li>lepszej podkładki</li>
-                    </ul>
-                </p>
-            </article>
-            <article>
-                <h2>Prezent od nauczycieli</h2>
-                <img src="teacher.png" alt="">
-                <p>
-                    Jak wiadomo, szkoła jest bardzo obciążającym obowiązkiem dla większości dzieci i młodzieży. Z tego powodu świetnym prezentem dla każdego ucznia byłyby luźniejsze lekcje, na których dzieci mogłyby odpocząć od ciągłego wysiłku psychicznego w ciągu roku szkolnego.
-                </p>
-            </article>
-        </section>
-        <footer>
-            <h3>&copy;Krzysztof Paździor 2023r.</h3>
-        </footer>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kalkulator</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="calc-body">
+      <div class="display"></div>
+      <div class="buttons">
+        <main>
+          <div class="functional">
+            <button class="fun_but" id="AC">AC</button>
+            <button class="fun_but">1</button>
+            <button class="fun_but">1</button>
+            <button class="fun_but">=</button>
+          </div>
+          <button class="main_but">1</button>
+          <button class="main_but">2</button
+          ><button class="main_but">3</button>
+          <button class="main_but">×</button
+          ><button class="main_but">4</button>
+          <button class="main_but">5</button
+          ><button class="main_but">6</button>
+          <button class="main_but">÷</button
+          ><button class="main_but">7</button>
+          <button class="main_but">8</button><button class="main_but">9</button>
+          <button class="main_but">-</button>
+          <button id="big-but">0</button>
+          <button class="main_but">.</button>
+          <button class="main_but" id="plus">+</button>
+        </main>
+      </div>
     </div>
-</body>
+  </body>
 </html>
